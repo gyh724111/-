@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".AllResumeActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="fullscreen_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/all_resume_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fullscreen_content"
+        android:background="#FFDCDCDC"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</FrameLayout>

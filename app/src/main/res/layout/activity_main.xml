@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如未部署域名，请输入服务器ip:port" />
+
+    <EditText
+        android:id="@+id/IpPortEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入ip:port(例：192.168.31.10:8001)"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/bindButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务器"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入简历列表"/>
+
+
+
+</LinearLayout>
