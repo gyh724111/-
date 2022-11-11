@@ -8,7 +8,9 @@ https://github.com/gyh724111/ComputerApplicationHomeWorkServer
 resumeapp本项目为个人简介项目客户端
 
 2、调用服务端接口获取简历列表
-${ip:port}/user/listall
+
+>>${ip:port}/user/listall
+
 获取用户列表
 
 
@@ -48,7 +50,8 @@ ${ip:port}/user/listall
 
 3、调用服务端用户详情接口获取用户详细信息
 
-${ip:port}/user/getuserdetail/${userid}
+>>${ip:port}/user/getuserdetail/${userid}
+
  <img width="360" alt="image" src="https://i0.hdslb.com/bfs/sycp/mgk/img/202211/b1ffdeea282a7885c0a20851d07039c7.png">
 
  
