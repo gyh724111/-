@@ -5,11 +5,43 @@ resume为个人简介项目服务端
 resumeapp为个人简介项目客户端
 
 2、调用服务端接口获取简历列表
-${ip:port}/user/listall获取用户列表
+${ip:port}/user/listall
+获取用户列表
+
+
 ![image](https://i0.hdslb.com/bfs/sycp/mgk/img/202211/75a081aadee2fffe52ae8687733b86c4.png)
 
 
 ![image](https://i0.hdslb.com/bfs/sycp/mgk/img/202211/f6f72d16be64567ef9c3a5bf1dc1c3c6.png)
+
+服务端完整数据
+```
+[
+    {
+        "id": 1,
+        "name": "葛永晖",
+        "job": "资深测试工程师",
+        "sex": 1,
+        "birth": "1995-07-24",
+        "tel": "17621778276",
+        "desc": "5年工作经验",
+        "mail": "397910995@qq.com",
+        "type": "0"
+    },
+    {
+        "id": 2,
+        "name": "李姝",
+        "job": "规划师",
+        "sex": 2,
+        "birth": "1995-04-19",
+        "tel": "15021974266",
+        "desc": "公务员",
+        "mail": "xxxxxxx@qq.com",
+        "type": "0"
+    }
+]
+```
+
 
 3、调用服务端用户详情接口获取用户详细信息
 
