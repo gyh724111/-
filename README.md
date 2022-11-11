@@ -64,8 +64,7 @@ resumeapp本项目为个人简介项目客户端
 ![image](https://i0.hdslb.com/bfs/sycp/mgk/img/202211/ebd2e31a2825186105e01d14dfcb7e92.png)
 
 
-<video src="https://github.com/gyh724111/ComputerApplicationHomeWorkAndroid/blob/main/%E4%BD%9C%E4%B8%9A%E5%BD%95%E5%B1%8F.mov"></video>
-
+>录屏见项目根目录“作业录屏.mov”
 
 服务端完整数据
 ```
