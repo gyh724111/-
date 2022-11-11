@@ -55,7 +55,7 @@ resumeapp本项目为个人简介项目客户端
 
 3、调用服务端用户详情接口
 
-> ${ip:port}/user/getuserdetail/${userid}
+>${ip:port}/user/getuserdetail/userid
 获取用户详细信息
 
  <img width="360" alt="image" src="https://i0.hdslb.com/bfs/sycp/mgk/img/202211/b1ffdeea282a7885c0a20851d07039c7.png">
